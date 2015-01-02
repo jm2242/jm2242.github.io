@@ -1,13 +1,13 @@
-/*
- Hello.
- I see you looking through my source.  You silly goose.
- Why not just email me, or check out my GitHub?
- github.com/cassidoo
- */
+
 
 * {
 	margin: 0;
 	padding: 0;
+}
+body {
+  /*background-color: rgb(236, 239, 241);
+  font: 300 1em/1.38 museo-sans, Avenir, "Open Sans", Helvetica, Sans-serif;*/
+ /* color: .yellow;*/
 }
 
 body {
@@ -15,6 +15,7 @@ body {
 	overflow-x: hidden;
 }
 
+/**/
 h1, h2 {
 	font-family: 'Bitter', serif;
 	font-weight: 300;
@@ -23,17 +24,17 @@ h1, h2 {
 }
 
 h1 {
-	color: #333333;
+	color: .yellow;
 }
 
 h2 {
 	color: #ffffff;
-	padding-top: 15px;
+	padding-top: 0px;
 }
 
 .heading {
 	position: absolute;
-	top: 25%;
+	top: 35%;
 	width: 500px;
 	left: 50%;
 	margin-left: -250px;
@@ -83,6 +84,17 @@ a:hover {
 #press a {
 	line-height: 2em;
 }
+
+/*.navbar {
+  position: relative;
+  width: 100%;
+  height: 70px;
+  margin: 0 auto;
+  padding: 17px 30px 20px;
+  border-radius: 40px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1), 0 2px 5px rgba(255, 255, 255, 0.5) inset;
+}*/
 
 nav div a {
 	text-decoration: none;
@@ -170,24 +182,35 @@ nav div a:hover {
 
 /*Responsive Jazz*/
 
-@media all and (max-width: 800px) {
+@media all and (max-width: 768px) {
 	.section .content {
 		width: 90%;
 		max-width: 700px;
 	}
 }
 
-@media all and (max-width: 650px) {
-	.projects {
-		display: none;
-	}
-	
+@media all and (max-width: 700px) {	
 	nav div {
-		width: 22%;
+		width: 35%;
+		font-size: 1em;
 	}
 }
+	
+	nav {
+		height: auto;
+	}
 
-@media all and (max-width: 530px) {	
+nav .container div {
+		
+		
+		text-align: center;
+		margin-left: 5pt;
+		margin-right: 0pt;
+		padding: 5px 0px;
+	}
+
+
+/*@media all and (max-width: 600px) {	
 	h1 {
 		font-size: 2.5em;
 	}
@@ -201,30 +224,34 @@ nav div a:hover {
 	.press {
 		display: none;
 	}
-	
-	nav div {
-		width: 30%;
-		padding: 5px 0px;
-	}
-	
+	*/
+
+	/*
 	#contact a {
 		display: block;
 	}
-}
+} */
 
 @media all and (max-width: 480px) {
 	h1 {
-		font-size: 2em;
+		font-size: 1.8em;
+		color: #444444;
 	}
 	
+	nav div {
+		width: 8%;
+		font-size: 1em;
+	}
 	.heading {
-		top: 2%;
+		top: 35%;
 	}
 	
 	nav {
 		height: auto;
 	}
-	
+/*	.navbar {
+		min-height: 160px;
+	}*/
 	nav .container div {
 		display: block;
 		width: 100%;
@@ -234,11 +261,11 @@ nav div a:hover {
 		padding: 5px 0px;
 	}
 	
-	nav .container .press {
+/*	nav .container .press {
 		display: none;
-	}
+	}*/
 	
-	nav .container .projects {
+/*	nav .container .projects {
 		display: none;
-	}
+	}*/
 }
