@@ -421,8 +421,8 @@ hr.bold {
 .hero h1 { font-size: 50px; letter-spacing: 12px; margin: 40px 0 10px; font-weight: 900; color: #1F1C64;}
 .hero h1 span { color: #a1a9b0; display: inline-block; }
 .hero p { font-size: 24px; font-weight: 400; color: #fefefe; }
-.learn-more-btn { background: rgba(66, 110, 255, 0.74); padding: 20px 40px; border-radius: 5px;
-	-moz-border-radius: 5px; -webkit-border-radius: 5px; -o-border-radius: 5px; color: #fff; text-transform: uppercase; letter-spacing: 1px; display: inline-block; -webkit-box-shadow: 0px 3px 0px 0px rgba(66, 195, 255, 0.3); -moz-box-shadow: 0px 0px 0px 0px rgba(66, 195, 255, 0.3); box-shadow: 0px 3px 0px 0px rgba(66, 195, 255, 0.3); margin: 100px 0 0; font-weight: bold; }
+.learn-more-btn { background: #28c3ab; padding: 20px 40px; border-radius: 5px;
+	-moz-border-radius: 5px; -webkit-border-radius: 5px; -o-border-radius: 5px; color: #fff; text-transform: uppercase; letter-spacing: 1px; display: inline-block; -webkit-box-shadow: 0px 3px 0px 0px rgba(66, 195, 255, 0.3); -moz-box-shadow: 0px 0px 0px 0px rgba(66, 195, 255, 0.3); box-shadow: 0px 0px 0px 0px rgba(66, 195, 255, 0.3); margin: 100px 0 0; font-weight: bold; }
 .learn-more-btn:hover, .learn-more-btn:focus { background: rgba(66, 110, 255, 0.5); color: #fff; }
 
 
@@ -605,6 +605,8 @@ hr.bold {
 .profile-pic {
 	margin-left: auto;
 	margin-right: auto;
+	border-radius: 30px;
+
 }
 .img-responsive{
   padding-top:0px;
@@ -675,7 +677,7 @@ form#contact-form input,form#contact-form select,form#contact-form textarea {
 
 .btn-lg,
 .btn-group-lg > .btn {
-  border-radius: 2px;
+  border-radius: 3px;
 }
 
 form#contact-form input:focus,form#contact-form select:focus,form#contact-form textarea:focus {
@@ -885,7 +887,8 @@ form.search-form input:focus {
 
 /* --- button --- */
 .btn {
-	border-radius: 2px;
+	border-radius: 3px;
+	padding: 10px;
 	position: relative;
 	display: inline-block;
 	outline: none;
@@ -1054,7 +1057,7 @@ a.btn:focus{
 @media (max-width:480px) {
 
 	.navbar-custom .nav.navbar-nav {
-    background-color: rgba(255,255,255,.4);
+    background-color: #444;
 	}
 	
 	.navbar.navbar-custom.navbar-fixed-top {
