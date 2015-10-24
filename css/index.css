@@ -860,14 +860,11 @@ form.search-form input:focus {
 	float: none;
 }
 
-html, body {
-  overflow-x: hidden;
+body,html
+{
+overflow:hidden;
+width:100%;
 }
-/*body {*/
-  /*position: relative*/
-/*}*/
-
-
 
 /* === testimonial slide === */
 .testimonialslide {
