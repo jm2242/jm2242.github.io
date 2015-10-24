@@ -861,11 +861,7 @@ form.search-form input:focus {
 	float: none;
 }
 
-/*body,html*/
-/*{*/
-/*overflow:hidden;*/
-/*width:100%;*/
-/*}*/
+body { overflow-x: hidden; }
 
 /* === testimonial slide === */
 .testimonialslide {
