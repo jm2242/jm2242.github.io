@@ -855,18 +855,16 @@ form.search-form input:focus {
 
 
 
-
-
-.alignleft {
-    float: left;
-    color: #000;
-    vertical-align: -40px;
-    font-size: 16px;
+.vertical-align1 {
+    vertical-align: text-bottom;
+	float: none;
 }
-.alignright {
-    float: right;
-    color: #000;
-    font-size: 16px;
+
+html, body {
+  overflow-x: hidden;
+}
+body {
+  position: relative
 }
 
 
