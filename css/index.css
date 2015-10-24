@@ -424,7 +424,8 @@ hr.bold {
 --- Intro
 ============================ */
 
-.hero { background: url(../img/backgroundPhoto.jpg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 200px 0 200px 0; height: auto; }
+.hero { background: url(../img/backgroundPhoto.jpg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 200px 0 200px 0; height: auto;
+	max-width: 100%;}
 .hero h1 { font-size: 50px; letter-spacing: 12px; margin: 40px 0 10px; font-weight: 900; color: #1F1C64;}
 .hero h1 span { color: #a1a9b0; display: inline-block; }
 .hero p { font-size: 24px; font-weight: 400; color: #fefefe; }
@@ -573,7 +574,7 @@ hr.bold {
 /* ===========================
 --- Courses
 ============================ */
-.courses { background: url(../img/cornell.jpg) no-repeat center center; min-height: 642px; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 200px 0 200px 0;   }
+.courses { background: url(../img/cornell.jpg) no-repeat center center; min-height: 642px; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 200px 0 200px 0; max-width: 100%  }
 
 
 
