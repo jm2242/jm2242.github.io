@@ -852,13 +852,13 @@ form.search-form input:focus {
 
 .alignleft {
     float: left;
-    color: #fff;
-    vertical-align: -50px;
+    color: #000;
+    vertical-align: -40px;
     font-size: 16px;
 }
 .alignright {
     float: right;
-    color: #fff;
+    color: #000;
     font-size: 16px;
 }
 
