@@ -1013,6 +1013,9 @@ a.btn:focus{
 	#navigation {
 		padding: 20px 0;
 	}
+	.hero {
+		padding: 0px 0 200px 0;
+	}
 	.site-logo{
 		margin: 0 0 0 30px;
 		float:none;
