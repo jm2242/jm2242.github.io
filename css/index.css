@@ -180,107 +180,107 @@ blockquote strong {
 }
 
 
-/*.navbar {*/
-    /*margin-bottom: 0;*/
-/*}*/
+.navbar {
+    margin-bottom: 0;
+}
 
-/*.navbar-brand {*/
-    /*font-weight: 700;*/
-/*}*/
-
-
-/*.navbar-brand:focus {*/
-    /*outline: 0;*/
-/*}*/
-
-/*.nav.navbar-nav {*/
-    /*background-color: rgba(255,255,255,.6);*/
-/*}*/
-
-/*.navbar-custom.top-nav-collapse .nav.navbar-nav {*/
-    /*background-color: rgba(0,0,0,0);*/
-/*}*/
+.navbar-brand {
+    font-weight: 700;
+}
 
 
-/*.navbar-custom ul.nav li a {*/
-	/*font-size: 12px;*/
-	/*letter-spacing: 1px;*/
-    /*color: #444;*/
-	/*text-transform: uppercase;*/
-	/*font-weight: 700;*/
-/*}*/
+.navbar-brand:focus {
+    outline: 0;
+}
 
-/*.navbar-custom.top-nav-collapse ul.nav li a {*/
-	    /*-webkit-transition: all .2s ease-in-out;*/
-    /*-moz-transition: all .2s ease-in-out;*/
-    /*transition: all .2s ease-in-out;*/
-	/*color: #fff;*/
-/*}*/
+.nav.navbar-nav {
+    background-color: rgba(255,255,255,.6);
+}
 
-/*.navbar-custom ul.nav ul.dropdown-menu {*/
-	  /*border-radius: 0;	*/
-	/*margin-top: 21px;*/
-	/*border-top: none;*/
-/*}*/
-
-/*.navbar-custom ul.nav li a:hover ul.dropdown-menu {*/
-	    /*-webkit-transition: all .2s ease-in-out;*/
-    /*-moz-transition: all .2s ease-in-out;*/
-    /*transition: all .2s ease-in-out;*/
-/*}*/
+.navbar-custom.top-nav-collapse .nav.navbar-nav {
+    background-color: rgba(0,0,0,0);
+}
 
 
-/*.navbar-custom ul.nav ul.dropdown-menu li {*/
-	/*border-bottom: 1px solid #f5f5f5;*/
+.navbar-custom ul.nav li a {
+	font-size: 12px;
+	letter-spacing: 1px;
+    color: #444;
+	text-transform: uppercase;
+	font-weight: 700;
+}
 
-/*}*/
+.navbar-custom.top-nav-collapse ul.nav li a {
+	    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+	color: #fff;
+}
 
-/*.navbar-custom ul.nav ul.dropdown-menu li:last-child{*/
-	/*border-bottom: none;*/
-/*}*/
+.navbar-custom ul.nav ul.dropdown-menu {
+	  border-radius: 0;
+	margin-top: 21px;
+	border-top: none;
+}
 
-/*.navbar-custom ul.nav ul.dropdown-menu li a {*/
-	/*padding: 10px 20px;*/
-/*}*/
+.navbar-custom ul.nav li a:hover ul.dropdown-menu {
+	    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
 
-/*.navbar-custom ul.nav ul.dropdown-menu li a:hover {*/
-	/*background: #fefefe;*/
-/*}*/
 
-/*.navbar-custom.top-nav-collapse ul.nav ul.dropdown-menu li a {*/
-	/*color: #666;*/
-/*}*/
+.navbar-custom ul.nav ul.dropdown-menu li {
+	border-bottom: 1px solid #f5f5f5;
 
-/*.navbar-custom .nav li a {*/
-    /*-webkit-transition: background .3s ease-in-out;*/
-    /*-moz-transition: background .3s ease-in-out;*/
-    /*transition: background .3s ease-in-out;*/
-/*}*/
+}
 
-/*.navbar-custom .nav li a:hover,*/
-/*.navbar-custom .nav li a:focus,*/
-/*.navbar-custom .nav li.active {*/
-    /*outline: 0;*/
-    /*background-color: rgba(255,255,255,.2);*/
-/*}*/
-/*.navbar-custom .nav li a:hover,*/
-/*.navbar-custom .nav li a:focus,*/
-/*.navbar-custom .nav li.active {*/
-    /*outline: 0;*/
-    /*background-color: rgba(255,255,255,.2);*/
-/*}*/
+.navbar-custom ul.nav ul.dropdown-menu li:last-child{
+	border-bottom: none;
+}
 
-/*.navbar-toggle {*/
-    /*padding: 4px 6px;*/
-    /*font-size: 14px;*/
-    /*color: #fff;*/
-/*}*/
+.navbar-custom ul.nav ul.dropdown-menu li a {
+	padding: 10px 20px;
+}
 
-/*.navbar-toggle:focus,*/
-/*.navbar-toggle:active {*/
-    /*outline: 0;*/
-	/*color: #444444;*/
-/*}*/
+.navbar-custom ul.nav ul.dropdown-menu li a:hover {
+	background: #fefefe;
+}
+
+.navbar-custom.top-nav-collapse ul.nav ul.dropdown-menu li a {
+	color: #666;
+}
+
+.navbar-custom .nav li a {
+    -webkit-transition: background .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out;
+}
+
+.navbar-custom .nav li a:hover,
+.navbar-custom .nav li a:focus,
+.navbar-custom .nav li.active {
+    outline: 0;
+    background-color: rgba(255,255,255,.2);
+}
+.navbar-custom .nav li a:hover,
+.navbar-custom .nav li a:focus,
+.navbar-custom .nav li.active {
+    outline: 0;
+    background-color: rgba(255,255,255,.2);
+}
+
+.navbar-toggle {
+    padding: 4px 6px;
+    font-size: 14px;
+    color: #fff;
+}
+
+.navbar-toggle:focus,
+.navbar-toggle:active {
+    outline: 0;
+	color: #444444;
+}
 
 
 /* misc */
@@ -1034,29 +1034,29 @@ a.btn:focus{
 	.navbar-header button {
 		background: #111;
 	}
-	
+
 	.navbar-header button.navbar-toggle {
 		padding: 4px 15px;
 		font-size: 14px;
 		color: #fff;
 	}
-	
+
 	.navbar-custom .nav {
 		background: #444;
 	}
-	
+
 	.service-box {
 		margin-bottom: 50px;
 	}
-	
+
 	.team-wrap {
 		margin-bottom: 30px;
 	}
-	
+
 	form#contact-form {
 		margin-bottom: 50px;
 	}
-	
+
 	.xs-marginbot-20 {
 		margin-bottom: 20px;
 	}
