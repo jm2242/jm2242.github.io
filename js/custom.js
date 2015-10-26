@@ -5,11 +5,12 @@
 	$(window).load(function(){
       $("#navigation").sticky({ topSpacing: 0 });
     });
+
 	$(document).ready(function(){
 		if (/Android|BlackBerry|iPhone|iPad|iPod|webOS/i.test(navigator.userAgent) === false) {
-	$('.icon').hover(function() {
-    	$('.icon-name', $(this)).slideToggle(100, 'linear').display(100, 'linear');
-	});}
+			$('.icon').hover(function() {
+    			$('.icon-name', this).slideToggle(100, 'linear').display(100, 'linear');
+		});}
 	});
 
 	$('ul.nav li.dropdown').hover(function() {
