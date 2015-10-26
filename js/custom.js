@@ -1,6 +1,8 @@
 /*global jQuery:false */
 (function ($) {
-
+	if (!("ontouchstart" in document.documentElement)) {
+	document.documentElement.className += " no-touch";
+	}
 
 	$(window).load(function(){
       $("#navigation").sticky({ topSpacing: 0 });
