@@ -1066,6 +1066,7 @@ a.btn:focus{
 
 	.navbar-custom .nav.navbar-nav {
     background-color: #444;
+	max-width: 100%;
 	}
 	
 	.navbar.navbar-custom.navbar-fixed-top {
