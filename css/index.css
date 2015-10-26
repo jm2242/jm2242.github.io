@@ -1074,3 +1074,11 @@ a.btn:focus{
 		margin-bottom: 30px;
 	}
 }
+
+/*Footer stuff*/
+.icon, .icon-name { cursor: pointer; }
+
+.icon-name { display: none; }
+
+/*.icon span { float: left; }*/
+/*div { overflow: hidden; }*/
