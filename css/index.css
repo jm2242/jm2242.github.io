@@ -1076,7 +1076,7 @@ a.btn:focus{
 }
 
 /*Footer stuff*/
-.icon, .icon-name { cursor: pointer; }
+/*.icon, .icon-name { cursor: pointer; }*/
 
 .icon-name { display: none; }
 
