@@ -18,6 +18,8 @@ github_username:  jekyll
 # Build settings
 markdown: kramdown
 
+sass:
+    sass_dir: _sass
 
 # Server Config options
 livereload: true    # You no longer need to include --livereload

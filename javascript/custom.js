@@ -179,7 +179,7 @@
         }
 
         /***GOOGLE MAP INITIALIZATION***/
-        init();
+        //init();
 
         /***CAROUSAL SWIPE***/
         $(".carousel-inner").swipe( {
