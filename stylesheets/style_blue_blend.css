@@ -652,7 +652,7 @@ html .btn, body .btn {
     z-index: 1; }
 #home .header-background #v-card-holder #v-card #profile img {
     /*user image for 400x400px image*/
-    width: 331px;
+    width: 400px;
     height: auto; }
 #home .header-background #v-card-holder #v-card #profile .slant {
     /*slant*/
