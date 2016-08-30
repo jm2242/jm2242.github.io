@@ -70,9 +70,11 @@
         $(afterFirst).addClass('hide');
 
         $('a#all-sample').on('click', function () {
-            $('#add-more').removeClass('hide');
+            var $addMore = $('#add-more');
+            $addMore.removeClass('hide');
+            //$addMore.click();
             $(all).removeClass('tab-pane');
-            $(afterFirst).addClass('hide');
+            //$(afterFirst).addClass('hide');
         });
         $('a.cate').on('click', function () {
             $('#add-more').addClass('hide');
@@ -106,6 +108,9 @@
                 .addClass('InRight')
                 .show();
         });
+
+        //By default show all projects
+        $('#add-more').click();
 
 
         /***SKILLS***/
