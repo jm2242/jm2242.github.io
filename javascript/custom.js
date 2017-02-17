@@ -64,10 +64,10 @@
 
 
         /***PORTFOLIO GALLERY***/
-        var all = '#a,#b,#c';
-        var afterFirst = '#b,#c';
+        var all = '#a,#b,#c,#d';
+        var afterFirst = '#b,#c,#d';
 
-        $(afterFirst).addClass('hide');
+        // $(afterFirst).addClass('hide');
 
         $('a#all-sample').on('click', function () {
             var $addMore = $('#add-more');
@@ -205,7 +205,7 @@
             e.preventDefault(); //Prevents default submit
             var form = $(this);
             $("#submit").attr('disabled', 'disabled'); //Disable the submit button on click
-            var post_data = form.serialize(); //Serialized the form data 
+            var post_data = form.serialize(); //Serialized the form data
             $('div#form-loader').removeClass('is-hidden').fadeIn(500);
             $.ajax({
                 type: 'POST',
@@ -249,5 +249,3 @@
 
 
 })(jQuery);
-
-
